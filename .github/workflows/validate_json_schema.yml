@@ -10,7 +10,7 @@ on:
 
 
 jobs:
-  Validate-json:
+  verify-json-validation:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
