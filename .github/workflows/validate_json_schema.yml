@@ -1,0 +1,21 @@
+
+name: Validate JSONs
+
+on:
+  # Triggers the workflow on push or pull request events but only for the master branch
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+
+jobs:
+  verify-json-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Validate JSON
+        uses: docker://orrosenblatt/validate-json-action:latest
+        env:
+          INPUT_SCHEMA: ./schema.json
+          INPUT_JSONS: /targets/internal-dev/targets.json,/targets/int/targets.json,/targets/internal-qa/targets.json,/targets/sandbox/targets.json,/targets/prod/targets.json
