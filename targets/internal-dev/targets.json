@@ -3,7 +3,7 @@
       "NHS0006": {
         "target": "https://internal-dev.api.service.nhs.uk/bars-mock-receiver-proxy"
       },
-      "NHS0002": {
+      "NHS0001": {
         "target": "http://httpbin.org/get"
       },
       "NHS0003": {
