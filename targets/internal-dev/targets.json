@@ -1,10 +1,10 @@
 {
     "NHSD-ServiceIdentifier": {
-      "NHS0006": {
+      "NHS0001": {
         "target": "https://internal-dev.api.service.nhs.uk/bars-mock-receiver-proxy"
       },
-      "NHS0001": {
-        "target": "http://httpbin.org/get"
+      "NHS0002": {
+        "targe": "http://httpbin.org/get"
       },
       "NHS0003": {
         "target": "http://mocktarget.apigee.net/json"
