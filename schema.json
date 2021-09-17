@@ -19,7 +19,10 @@
                         "target": {
                             "type": "string"
                         },
-                        "additionalProperties": false
+                        "additionalProperties": false,
+                        "patternProperties": {
+                            "^target$":{ "type": "string"}
+                        }
                     }
                 },
                 "additionalProperties": false
