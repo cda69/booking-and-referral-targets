@@ -29,7 +29,8 @@
                     "target":{
                         "type": "string"
                     }
-                }
+                },
+                "additionalProperties": false
             }
         }
     }
