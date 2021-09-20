@@ -6,7 +6,7 @@
       "NHS0002": {
         "target": "http://httpbin.org/get"
       },
-      "HS0003": {
+      "NHS0003": {
         "target": "http://mocktarget.apigee.net/json"
       }
     }
