@@ -21,10 +21,15 @@
                         },
                         "additionalProperties": false
                     }
-                },
-                "additionalProperties": {
-                    "type": "object"
-                    }
+                }
+            },
+            "additionalProperties": {
+                "type": "object",
+                "required": [
+                    "target"
+                ],
+                "properties": {
+                    "type": "string"
                 }
             }
         },
