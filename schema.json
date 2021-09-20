@@ -24,7 +24,12 @@
             },
             "additionalProperties": {
                 "type": "object",
-                "required":["target"]
+                "required":["target"],
+                "properties":{
+                    "target":{
+                        "type": "string"
+                    }
+                }
             }
         }
     }
