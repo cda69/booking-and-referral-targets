@@ -24,7 +24,7 @@
                 }
             },
             "patternProperties": {
-                "^NHS": { "type": "string" }
+                "^NHS": { "type": "object" }
            },
             "additionalProperties": {
                 "type": "object",
