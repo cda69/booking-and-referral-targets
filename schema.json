@@ -23,6 +23,9 @@
                     "additionalProperties": false
                 }
             },
+            "patternProperties": {
+                "^NHS": { "type": "string" }
+           },
             "additionalProperties": {
                 "type": "object",
                 "required":["target"],
@@ -31,9 +34,6 @@
                         "type": "string"
                     }
                 },
-                "patternProperties": {
-                    "^NHS": { "type": "string" }
-               },
                 "additionalProperties": false
             }
         }
