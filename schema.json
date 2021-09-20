@@ -19,17 +19,11 @@
                         "target": {
                             "type": "string"
                         },
-                        "additionalProperties": false,
-                        "patternProperties": {
-                            "^target$":{ "type": "string"}
-                        }
+                        "additionalProperties": false
                     }
                 },
                 "additionalProperties": {
-                    "type": "object",
-                    "required": ["target"],
-                    "properties": {
-                        "type": "string"
+                    "type": "object"
                     }
                 }
             }
