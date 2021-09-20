@@ -1,71 +1,42 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema",
-    "$id": "http://example.com/example.json",
     "type": "object",
-    "title": "The root schema",
-    "description": "The root schema comprises the entire JSON document.",
-    "default": {},
-    "examples": [
-        {
-            "NHSD-ServiceIdentifier": {
-                "NHS0001": {
-                    "target": "https://internal-dev.api.service.nhs.uk/bars-mock-receiver-proxy"
-                }
-            }
-        }
-    ],
     "required": [
         "NHSD-ServiceIdentifier"
     ],
     "properties": {
         "NHSD-ServiceIdentifier": {
-            "$id": "#/properties/NHSD-ServiceIdentifier",
             "type": "object",
-            "title": "The NHSD-ServiceIdentifier schema",
-            "description": "An explanation about the purpose of this instance.",
-            "default": {},
-            "examples": [
-                {
-                    "NHS0001": {
-                        "target": "https://internal-dev.api.service.nhs.uk/bars-mock-receiver-proxy"
-                    }
-                }
-            ],
+            "propertyNames": {
+                "pattern": "^NHS"
+              },
             "required": [
                 "NHS0001"
             ],
             "properties": {
                 "NHS0001": {
-                    "$id": "#/properties/NHSD-ServiceIdentifier/properties/NHS0001",
                     "type": "object",
-                    "title": "The NHS0001 schema",
-                    "description": "An explanation about the purpose of this instance.",
-                    "default": {},
-                    "examples": [
-                        {
-                            "target": "https://internal-dev.api.service.nhs.uk/bars-mock-receiver-proxy"
-                        }
-                    ],
                     "required": [
                         "target"
                     ],
                     "properties": {
                         "target": {
-                            "$id": "#/properties/NHSD-ServiceIdentifier/properties/NHS0001/properties/target",
-                            "type": "string",
-                            "title": "The target schema",
-                            "description": "An explanation about the purpose of this instance.",
-                            "default": "",
-                            "examples": [
-                                "https://internal-dev.api.service.nhs.uk/bars-mock-receiver-proxy"
-                            ]
+                            "type": "string"
                         }
                     },
-                    "additionalProperties": true
+                    "additionalProperties": false
                 }
             },
-            "additionalProperties": true
+            "additionalProperties": {
+                "type": "object",
+                "required":["target"],
+                "properties":{
+                    "target":{
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false
+            }
         }
     },
-    "additionalProperties": true
+    "additionalProperties": false 
 }
