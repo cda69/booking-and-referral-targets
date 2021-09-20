@@ -1,7 +1,7 @@
 {
     "NHSD-ServiceIdentifier": {
       "NHS0001": {
-        "target": "https://internal-dev.api.service.nhs.uk/bars-mock-receiver-proxy",
+        "target": "https://internal-dev.api.service.nhs.uk/bars-mock-receiver-proxy"
       },
       "NHS0002": {
         "target": "http://httpbin.org/get"
@@ -10,5 +10,15 @@
         "target": "http://mocktarget.apigee.net/json"
       }
     },
-    "something": "kjaskdjks"
+    "NHSD-ServiceIde": {
+      "NHS0001": {
+        "target": "https://internal-dev.api.service.nhs.uk/bars-mock-receiver-proxy"
+      },
+      "NHS0002": {
+        "target": "http://httpbin.org/get"
+      },
+      "NHS0003": {
+        "target": "http://mocktarget.apigee.net/json"
+      }
+    }
   }
