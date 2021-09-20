@@ -23,7 +23,8 @@
                 }
             },
             "additionalProperties": {
-                "type": "object"
+                "type": "object",
+                "required":["target"]
             }
         }
     }
