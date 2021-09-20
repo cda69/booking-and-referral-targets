@@ -19,7 +19,8 @@
                         "target": {
                             "type": "string"
                         }
-                    }
+                    },
+                    "additionalProperties": false
                 }
             },
             "additionalProperties": {
