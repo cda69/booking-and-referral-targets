@@ -6,6 +6,9 @@
     "properties": {
         "NHSD-ServiceIdentifier": {
             "type": "object",
+            "propertyNames": {
+                "pattern": "^NHS"
+              },
             "required": [
                 "NHS0001"
             ],
@@ -25,9 +28,6 @@
             },
             "additionalProperties": {
                 "type": "object",
-                "propertyNames": {
-                    "pattern": "^NHS"
-                  },
                 "required":["target"],
                 "properties":{
                     "target":{
