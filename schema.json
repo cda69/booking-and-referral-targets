@@ -23,11 +23,11 @@
                     "additionalProperties": false
                 }
             },
-            "patternProperties": {
-                "^NHS": { "type": "object" }
-           },
             "additionalProperties": {
                 "type": "object",
+                "propertyNames": {
+                    "pattern": "^NHS"
+                  },
                 "required":["target"],
                 "properties":{
                     "target":{
