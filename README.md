@@ -11,7 +11,7 @@ There is a fodler for each environment inside `targets/`. Each folder represents
 
 The json file contains a root element `NHSD-ServiceIdentifier` which can't be modified. 
 
-####Attention
+#### Attention
 The element `NHS0001`, bellow: 
 ```json
 
@@ -23,7 +23,7 @@ The element `NHS0001`, bellow:
 
 can't be deleted or modified. This is used as a test target. Tests to the structure of each file will be executed and any change to this element will result in an error message and in a failed deployment. 
 
-####How to use
+#### How to use
 
 You can create more elements inside the root element, e.g:
 ```json
