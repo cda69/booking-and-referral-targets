@@ -2,6 +2,9 @@
     "NHSD-ServiceIdentifier": {
       "NHS0001": {
         "target": "https://internal-dev.api.service.nhs.uk/bars-mock-receiver-proxy"
+      },
+      "NHS0001-401": {
+        "target": "https://internal-dev.api.service.nhs.uk/bars-mock-receiver-proxy"
       }
     }
   }
