@@ -4,7 +4,10 @@
         "target": "https://internal-dev.api.service.nhs.uk/bars-mock-receiver-proxy"
       },
       "NHS0001-401": {
-        "target": "https://internal-dev.api.service.nhs.uk/bars-mock-receiver-proxy"
+        "target": "https://internal-dev.api.service.nhs.uk/bars-mock-receiver-proxy/errors"
+      },
+      "NHS0001-403": {
+        "target": "https://internal-dev.api.service.nhs.uk/bars-mock-receiver-proxy/errors"
       }
     }
   }
