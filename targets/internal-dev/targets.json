@@ -8,6 +8,15 @@
       },
       "NHS0001-403": {
         "target": "https://internal-dev.api.service.nhs.uk/bars-mock-receiver-proxy/errors"
+      },
+      "NHS0001-406": {
+        "target": "https://internal-dev.api.service.nhs.uk/bars-mock-receiver-proxy/errors"
+      },
+      "NHS0001-409": {
+        "target": "https://internal-dev.api.service.nhs.uk/bars-mock-receiver-proxy/errors"
+      },
+      "NHS0001-422": {
+        "target": "https://internal-dev.api.service.nhs.uk/bars-mock-receiver-proxy/errors"
       }
     }
   }
