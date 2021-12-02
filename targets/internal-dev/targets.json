@@ -10,7 +10,7 @@
         "target": "https://internal-dev.api.service.nhs.uk/bars-mock-receiver-proxy/errors"
       },
       "NHS0001-406": {
-        "target": "https://internal-dev.api.service.nhs.uk/bars-mock-receiver-proxy/errors\\"
+        "target": "https://internal-dev.api.service.nhs.uk/bars-mock-receiver-proxy/errors"
       }
     }
 }
