@@ -8,6 +8,9 @@
       },
       "NHS0003": {
         "target": "http://mocktarget.apigee.net/json"
+      },
+      "TKW0004": {
+        "target": "http://ec2-18-170-14-253.eu-west-2.compute.amazonaws.com/"
       }
     }
   }
