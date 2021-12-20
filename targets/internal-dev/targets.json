@@ -26,6 +26,9 @@
       },
       "NHS0001-503": {
         "target": "https://internal-dev.api.service.nhs.uk/bars-mock-receiver-proxy/errors"
-      }
+      },
+      "NHS999": {
+        "target": "https://internal-dev.api.service.nhs.uk/bars-mock-receiver-proxy"
+      },
     }
 }
