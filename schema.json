@@ -17,7 +17,8 @@
                     ],
                     "properties": {
                         "target": {
-                            "type": "string"
+                            "type": "string",
+                            "pattern": "^https:\/\/.*"
                         }
                     },
                     "additionalProperties": false
