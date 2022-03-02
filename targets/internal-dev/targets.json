@@ -27,5 +27,21 @@
       "NHS0001-503": {
         "target": "https://internal-dev.api.service.nhs.uk/bars-mock-receiver-proxy/errors"
       }
+    },
+    "NHSD-Target-Identifier": {
+      "tests": {
+        "NHS0001": "https://internal-dev.api.service.nhs.uk/bars-mock-receiver-proxy",
+        "NHS0001-401": "https://internal-dev.api.service.nhs.uk/bars-mock-receiver-proxy/errors",
+        "NHS0001-403": "https://internal-dev.api.service.nhs.uk/bars-mock-receiver-proxy/errors",
+        "NHS0001-406": "https://internal-dev.api.service.nhs.uk/bars-mock-receiver-proxy/errors",
+        "NHS0001-409": "https://internal-dev.api.service.nhs.uk/bars-mock-receiver-proxy/errors",
+        "NHS0001-422": "https://internal-dev.api.service.nhs.uk/bars-mock-receiver-proxy/errors",
+        "NHS0001-500": "https://internal-dev.api.service.nhs.uk/bars-mock-receiver-proxy/errors",
+        "NHS0001-501": "https://internal-dev.api.service.nhs.uk/bars-mock-receiver-proxy/errors",
+        "NHS0001-503": "https://internal-dev.api.service.nhs.uk/bars-mock-receiver-proxy/errors"
+      },
+      "https://fhir.nhs.uk/Id/dos-service-id": {
+        "1122334455": "https://internal-dev.api.service.nhs.uk/bars-mock-receiver-proxy"
+      }
     }
 }
