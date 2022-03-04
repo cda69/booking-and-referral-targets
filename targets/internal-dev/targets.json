@@ -39,9 +39,6 @@
         "NHS0001-500": "https://internal-dev.api.service.nhs.uk/bars-mock-receiver-proxy/errors",
         "NHS0001-501": "https://internal-dev.api.service.nhs.uk/bars-mock-receiver-proxy/errors",
         "NHS0001-503": "https://internal-dev.api.service.nhs.uk/bars-mock-receiver-proxy/errors"
-      },
-      "https://fhir.nhs.uk/Id/dos-service-id": {
-        "1122334455": "https://internal-dev.api.service.nhs.uk/bars-mock-receiver-proxy"
       }
     }
 }
